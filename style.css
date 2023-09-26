@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(0deg, rgb(111, 209, 163), rgb(88, 248, 150), rgb(37, 37, 255));
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+canvas {
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 500px;
+    border: 1em solid black;
+    transform: translate(-50%, -50%);
+}
+#collisionCanvas {
+    opacity: 0;
+}
